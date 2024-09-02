@@ -1,0 +1,78 @@
+section.heading .container {
+  color: #fff;
+  text-align: center;
+  padding: 6rem 0 4rem 0;
+}
+
+section.heading .container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 32px;
+}
+
+section.heading .container h3 {
+  line-height: 22px;
+  font-size: 14px;
+}
+
+section.affiliates {
+  background-color: #fff;
+  text-align: center;
+}
+
+section.affiliates .container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+section.affiliates img {
+  margin: 2rem auto;
+  max-width: 930px;
+}
+
+section.affiliates h3 {
+  text-align: left;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 1rem 0;
+}
+
+section.affiliates .join {
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  max-width: 240px;
+  text-align: center;
+  color: #fff;
+  background-color: #4f78a9;
+  padding: 1.3rem;
+  font-weight: 700;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+
+section.affiliates p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 1rem;
+}
+
+section.affiliates p a {
+  color: #4f78a9;
+  text-decoration: underline;
+}
+
+section.affiliates ul {
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+section.affiliates ul li {
+  padding: 0.3rem 0;
+}

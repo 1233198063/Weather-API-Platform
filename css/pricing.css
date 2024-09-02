@@ -1,0 +1,642 @@
+.container,
+section .container {
+    padding: 0 15px;
+    position: relative;
+}
+
+section.hero.pricing {
+    padding: 6.8rem 0 12rem;
+    background: url(../images/mountains.svg),
+        linear-gradient(135deg, #1f4e69 0, #164058);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    text-align: center;
+}
+
+section.hero.pricing h2 {
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #283f59;
+}
+
+section.hero.pricing .cycle {
+    display: block;
+    margin-top: 2rem;
+    background-clip: border-box;
+    border: 0 solid rgba(55, 63, 67, .125);
+    padding: 1rem 0;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #49545a;
+}
+
+section.hero.pricing .cycle a {
+    position: relative;
+    background: #fff;
+    padding: 10px 10px 11px 30px;
+
+    width: 150px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+section.hero.pricing .cycle a.selected {
+    background: #15394c;
+    color: #fff;
+}
+
+section.hero.pricing .cycle a:before {
+    font-family: "Material Symbols Outlined";
+    font-size: 20px;
+
+    display: inline-block;
+    font-weight: 400;
+    font-variant: normal;
+    margin-right: 10px;
+    content: "\e835";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+section.hero.pricing .cycle a.selected:before {
+    content: "\e834";
+}
+
+section.hero.pricing .cycle a.monthly {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+section.hero.pricing .cycle a.yearly {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -3px;
+}
+
+section.hero.pricing .cycle a.yearly:after {
+    position: absolute;
+    right: -15px;
+    top: -16px;
+    background: #8a9bae;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    content: "up to 15% Discount";
+    font-weight: 600;
+}
+
+
+/* pricing */
+section.pricing {
+    padding: 40px 0 65px;
+    text-align: center;
+    background: #fff;
+}
+
+section.pricing .container ul.subscriptions {
+    margin-top: -180px;
+
+    list-style: none;
+    text-align: center;
+    color: rgba(22, 34, 47, 1);
+}
+
+section.pricing .container ul.subscriptions>li {
+    text-align: left;
+    display: inline-block;
+
+    width: 211px;
+
+    margin: 0 5px;
+    border-radius: 5px;
+
+    position: relative;
+    z-index: 0;
+}
+
+section.pricing ul.subscriptions li .main-container {
+    border-radius: 5px;
+    padding-bottom: 10px;
+    background: #ebeff4;
+    text-align: center;
+}
+
+section.pricing ul.subscriptions li .main-container .mc-header {
+    padding: 35px 0 15px;
+}
+
+section.pricing ul.subscriptions li .main-container .mc-header h3 {
+    font-size: 18px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* head icons */
+
+section.pricing ul.subscriptions li .main-container .mc-header h3:before{
+    position: relative;
+    top: 10px;
+
+    font-family: "Material Symbols Outlined";
+    font-size: 30px;
+    font-weight: 300;
+
+    margin-right: 10px;
+}
+
+section.pricing ul.subscriptions li.free .main-container .mc-header h3:before {
+    content: "\e2bd";
+}
+
+section.pricing ul.subscriptions li.standard .main-container .mc-header h3:before {
+    content: "\f172";
+}
+
+section.pricing ul.subscriptions li.pro .main-container .mc-header h3:before {
+    content: "\e430";
+}
+
+section.pricing ul.subscriptions li.business .main-container .mc-header h3:before {
+    content: "\e3aa";
+}
+
+section.pricing ul.subscriptions li.enterprise .main-container .mc-header h3:before {
+    content: "\e7f1";
+}
+
+section.pricing ul.subscriptions li .main-container .description {
+    height: 100px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+section.pricing ul.subscriptions li .main-container .price {
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    line-height: normal;
+}
+
+section.pricing ul.subscriptions li .main-container .price span {
+    font-size: 20px;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+section.pricing ul.subscriptions li .main-container .price .yearly-data {
+    display: none;
+}
+
+section.pricing ul.subscriptions li .main-container .price span.decimal {
+    font-size: 14px;
+    vertical-align: top;
+}
+
+section.pricing ul.subscriptions li .main-container .price small {
+    font-size: 14px;
+}
+
+section.pricing ul.subscriptions li .main-container .price .yearly-price,
+section.pricing ul.subscriptions li .main-container .price .frequency {
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+section.pricing ul.subscriptions li .main-container .price .yearly-price {
+    color: #7e7b7b;
+}
+
+/* button */
+section.pricing ul.subscriptions li .main-container a {
+    background: #dde1e7;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 3px;
+
+    display: inline-block;
+
+    font-size: 15px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #7e7b7b;
+    text-transform: uppercase;
+
+    width: 90%;
+}
+
+section.pricing ul.subscriptions li .features-container {
+    margin-top: 25px;
+}
+
+section.pricing ul.subscriptions li .features-container ul {
+    border-right: 1px solid #dde1e7;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    margin-right: -0.5rem;
+    margin-left: 0.8rem;
+}
+
+section.pricing ul.subscriptions li .features-container.fc-4 ul {
+    border-right: none;
+}
+
+/* pricing icons */
+section.pricing .features-container ul li:before {
+    position: relative;
+    top: 7px;
+
+    font-family: "Material Symbols Outlined";
+    font-size: 25px;
+    font-weight: 300;
+
+    margin-right: 10px;
+}
+
+section.pricing .features-container ul li.f-api:before {
+    content: "\e86f";
+}
+
+section.pricing .features-container ul li.f-support:before {
+    content: "\f233";
+}
+
+section.pricing .features-container ul li.f-current:before {
+    content: "\e2e7";
+}
+
+section.pricing .features-container ul li.f-module:before {
+    content: "\e263";
+}
+
+section.pricing .features-container ul li.f-auto:before {
+    content: "\e569";
+}
+
+section.pricing .features-container ul li.f-https:before {
+    content: "\e593";
+}
+
+section.pricing .features-container ul li.f-astronomy:before {
+    content: "\eb3a";
+}
+
+section.pricing .features-container ul li.f-hour:before {
+    content: "\e923";
+}
+
+section.pricing .features-container ul li.f-history:before {
+    content: "\e889";
+}
+
+section.pricing .features-container ul li.f-forecast:before {
+    content: "\f076";
+}
+
+section.pricing .features-container ul li.f-lang:before {
+    content: "\e894";
+}
+
+section.pricing .features-container ul li.f-bulk:before {
+    content: "\e14d";
+}
+
+section.pricing .features-container ul li.f-custome:before {
+    content: "\e429";
+}
+
+section.pricing .features-container ul li.f-empty:before {
+    content: "";
+}
+
+/* special */
+section.pricing .container ul li.highlighted .mc-header:before {
+    display: block;
+    position: relative;
+    top: -34.8px;
+    width: 100%;
+    height: 25px;
+
+    content: "MOST POPULAR";
+    color: #fff;
+    font-size: 12px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+
+    padding-top: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    background: #15394c;
+    z-index: 1;
+
+}
+
+section.pricing .container ul li.highlighted .main-container {
+    box-shadow: 0 1rem 3rem 0 rgba(177, 177, 177, .4);
+    background: #fff;
+}
+
+section.pricing .container ul li.highlighted .main-container a {
+    background: #15394c;
+    color: #fff;
+}
+
+section.pricing .container ul li.enterprise .main-container {
+    background: #15394c;
+    width: 230px;
+    color: #fff;
+}
+
+section.pricing .container ul li.enterprise {
+    background: #15394c;
+    width: 230px;
+    color: #fff;
+}
+
+section.pricing .container ul li.enterprise .main-container a {
+    background: #f47b21;
+    width: 88%;
+    color: #fff;
+}
+
+/* customers */
+.pricing section.customers {
+    background: #fff;
+}
+
+/* advantages */
+section.advantages {
+    padding: 3rem 0;
+    background: #eff2f5 url(../images/world_map_vector_objects.svg);
+    background-size: 950px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-y: 130px;
+}
+
+section.advantages h4 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 20rem;
+}
+
+section.advantages .boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+section.advantages .box.real {
+    border-top: 2px dashed #dde2e6;
+    padding-top: 2rem;
+}
+
+section.advantages .box {
+    display: block;
+    padding: 1rem 0 1rem 4rem;
+    position: relative;
+    margin: 0;
+
+    text-align: left;
+}
+
+section.advantages .box h5 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+section.advantages .box p {
+    max-width: 500px;
+}
+
+section.advantages .box .included {
+    position: absolute;
+    right: 0;
+    top: 5px;
+
+    width: 200px;
+
+    border-left: 2px dashed #dde2e6;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    
+}
+
+section.advantages .box .included div {
+    background: #416376;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    width: 5rem;
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 13px;
+    margin-bottom: 0.8rem;
+}
+
+/* advantage icons */
+section.advantages .box.real .heading:before {
+    content: "\e923";
+    top: 15px;
+}
+
+section.advantages .box.loca .heading:before {
+    content: "\e8b6";
+}
+
+section.advantages .box.astronomy .heading:before {
+    content: "\eb3a";
+}
+
+section.advantages .box.hour .heading:before {
+    content: "\e855";
+}
+
+section.advantages .box.historical .heading:before {
+    content: "\e889";
+}
+
+section.advantages .box.weather .heading:before {
+    content: "\f8bf";
+}
+
+section.advantages .box.lang .heading:before {
+    content: "\e894";
+}
+
+section.advantages .box.bulk .heading:before {
+    content: "\e14d";
+    bottom: 45px;
+}
+
+section.advantages .box .heading:before {
+    font-family:  "Material Symbols Outlined";
+    font-size: 60px;
+    font-weight: 400;
+    color: #a4b6c5;
+
+    margin-right: 10px;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+/* faq */
+section.faq-pricing {
+    color: rgba(22, 34, 47, 1);
+    padding: 40px 0 10px;
+    background: #fff;
+}
+
+section.faq-pricing .container h4 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section.faq-pricing .container {
+    display: grid;
+    grid-template-areas: 
+    "h4 h4"
+    "data api"
+    "plans empty"
+    "bot bot";
+}
+
+section.faq-pricing .container h4 {
+    grid-area: h4;
+}
+
+section.faq-pricing .container .data {
+    grid-area: data;
+}
+
+section.faq-pricing .container .api {
+    grid-area: api;
+}
+
+section.faq-pricing .container .plans {
+    grid-area: plans;
+}
+
+section.faq-pricing .container .empty {
+    grid-area: empty;
+}
+
+section.faq-pricing .container .bot {
+    grid-area: bot;
+}
+
+section.faq-pricing .container .topic {
+    margin: 2rem;
+}
+
+section.faq-pricing .container .topic h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #878787;
+}
+
+section.faq-pricing .container .topic ul li {
+    width: 500px;
+}
+
+section.faq-pricing .container .topic ul li p.question {
+    position: relative;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #dedee1;
+    cursor: pointer;
+}
+
+section.faq-pricing .container .topic ul li p.question:before {
+    content: " ";
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    top: 50%;
+    right:15px;
+    margin-left: -6px;
+    margin-top: -1px;
+    background: #aaadb1;
+}
+
+section.faq-pricing .container .topic ul li p.question:after {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    top: 50%;
+    right: 20px;
+    margin-left: -1px;
+    margin-top: -6px;
+    background: #aaadb1;
+}
+
+section.faq-pricing .container .topic ul li p.answer {
+    display: none;
+    background: #ebeff4;
+    padding: 20px 15px;
+    margin-bottom: 0;
+    transition: all 0.5s;
+}
+
+section.faq-pricing .container .topic ul li:hover p.answer {
+    display: block;
+}
+
+section.faq-pricing .container .topic>a {
+    padding: 15px 40px 15px 10px;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    color: #7e8e9e;
+}
+
+section.faq-pricing .container .topic>a:after {
+    font-family: "Material Symbols Outlined";
+    font-size: 20px;
+    font-weight: 700;
+    content: "\e5c8";
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    section.advantages .box .included {
+        display: none;
+    }
+
+    section.faq-pricing .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.faq-pricing .container .empty {
+        display: none;
+    }
+}

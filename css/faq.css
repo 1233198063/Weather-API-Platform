@@ -1,0 +1,92 @@
+section.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section.heading {
+    padding: 6rem 0 4.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+section.heading h1{
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 25px;
+}
+
+section.heading p {
+    line-height: 22px;
+    font-size: 15px;
+}
+
+section.faq {
+    color: rgba(22, 34, 47, 1);
+    padding: 40px 0 10px;
+    background: #fff;
+}
+
+section.faq .container .topic {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+section.faq .container .topic h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #878787;
+}
+
+section.faq .container .topic span {
+    display: inline-block;
+    margin-left: 1rem;
+    position:absolute;
+    top: 8px;
+    right: 5px;
+    color: #878787;
+}
+
+section.faq .container .topic ul li p.question {
+    position: relative;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #dedee1;
+    cursor: pointer;
+}
+
+section.faq .container .topic ul li p.answer {
+    display: none;
+    background: #ebeff4;
+    padding: 20px 15px;
+    margin-bottom: 0;
+    transition: all 0.5s;
+    text-align: left;
+}
+
+section.faq .container .topic ul li:hover p.answer {
+    display: block;
+}
+
+section.faq .container .topic ul li:hover span{
+    color: rgb(46, 85, 211);
+}
+
+section.faq .container .topic>a {
+    padding: 15px 40px 15px 10px;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    color: #7e8e9e;
+}
+
+@media screen and (max-width: 800px) {
+    section.faq .container .topic {
+        max-width: 500px;
+        margin: 2rem auto;
+    }
+}

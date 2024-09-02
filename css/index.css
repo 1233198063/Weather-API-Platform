@@ -1,0 +1,646 @@
+section.hero {
+    background: url(../images/mountains.svg),
+        linear-gradient(135deg, #1f4e69 0, #164058);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 9rem 0 9rem 0;
+}
+
+.web-title {
+    display: inline-block;
+}
+
+.web-title h2 {
+    font-size: 32px;
+    letter-spacing: 0;
+
+    margin-bottom: 20px;
+    margin-top: 0;
+
+    line-height: 40px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* title h4 */
+.web-title h4 {
+    font-size: 18px;
+    margin-bottom: 17px;
+    line-height: 25px;
+}
+
+section.hero h4+.number-customers {
+    font-size: 17px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+    margin: 1rem 0 1.25rem 0;
+    border-radius: 17px;
+    padding: 1rem 2rem;
+
+    line-height: 20px;
+    /* width:388px; */
+
+    background: rgba(255, 255, 255, .1);
+
+    display: block;
+}
+
+.number-customers:before {
+    display: inline-block;
+
+    margin: 0 10px 0 0;
+    content: "\f6a0";
+
+    position: relative;
+    left: 0;
+    top: 7px;
+
+    font-family: "Material Symbols Outlined";
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.web-title .signup {
+    background: #fc872e;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+
+    margin: 1rem 1rem 0 0;
+    padding: 1.3rem 2rem;
+    border-radius: 5px;
+
+    touch-action: manipulation;
+    cursor: pointer;
+
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.friendly {
+    font-size: 19px;
+    position: relative;
+    top: 10px;
+}
+
+/* weather animated */
+.weather-animated {
+    width: 500px;
+
+    border-radius: 10px;
+    border: 4px solid #608094;
+
+    margin-left: 3rem;
+    padding: 0.5rem 0;
+
+    background: #16394c;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.location h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.today {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-bottom: 1rem;
+}
+
+.ani-mid span {
+    line-height: 139.59px;
+    font-size: 30px;
+}
+
+.sunny {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ani-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ani-right span {
+    display: block;
+}
+
+.weather-animated .week {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day span {
+    display: block;
+    text-align: center;
+}
+
+.button,
+.navigation .logo a,
+.navigation ul>li>a,
+section.hero .container h2,
+section.hero .container h4 {
+    font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+a,
+section.hero {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* section advantages */
+
+section.advantages {
+    background: #fff;
+    padding: 3rem 0;
+    text-align: center;
+    display: block;
+}
+
+.boxes {
+    background-color: #eff2f5;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    text-align: left;
+
+    margin: 1rem;
+    padding: 1.3rem 0.5rem;
+
+    background-color: #ebeff4;
+}
+
+/* icons */
+h5:before {
+    font-family: "Material Symbols Outlined";
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.real h5:before {
+    content: "\e3dd";
+}
+
+.loca h5:before {
+    content: "\e55b";
+}
+
+.up h5:before {
+    content: "\e9e4";
+}
+
+.price h5:before {
+    content: "\e52d";
+}
+
+.box h5 {
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+
+h5,
+p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* main feature */
+section.main-feature {
+    background: #fff;
+    padding: 25px 0 65px 0;
+}
+
+.main-feature .container {
+    display: flex;
+}
+
+.features {
+    margin-right: 2rem;
+}
+
+.features h4 {
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: normal;
+}
+
+.features p,
+.features li {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.features li:before {
+    font-family: "Material Symbols Outlined";
+    display: inline-block;
+    font-weight: 300;
+    font-size: 30px;
+    margin-right: 10px;
+
+    position:relative;
+    top: 9px;
+    left: 0;
+}
+
+.features .realtime:before {
+    content: "\e86a";
+}
+
+.features .historical:before {
+    content: "\e889";
+}
+
+.features .forecast:before {
+    content: "\f076";
+}
+
+.features .auto:before {
+    content: "\e569";
+}
+
+.features .bulk:before {
+    content: "\f1b7";
+}
+
+/* methods */
+section.methods {
+    background: #184157 url(../images/bg_waves_4.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem 0;
+    color: #fff;
+}
+
+section.methods .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.methods h4{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+
+    margin-bottom: 15px;
+
+    color: #fff;
+    text-align: center;
+}
+
+section.methods h4:before {
+    display: block;
+    content: 'Example';
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    background: #416376;
+    margin: 2rem auto;
+
+    width: 100px;
+
+    padding: 0.8rem 0;
+    border-radius: 20px;
+}
+
+section.methods h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: normal;
+
+    text-align: center;
+
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.methods .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+    justify-items: center;
+    
+    margin: 2rem 0 1rem;
+    padding: 0;
+
+    width: 730px;
+}
+
+.methods .buttons>li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.methods .buttons li .b1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.methods .buttons li .b3{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.methods .buttons a {
+    min-width: 243px;
+    display: inline-block;
+    padding: 16px 50px 18px 50px;
+    margin: 0;
+
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #fff;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+.methods .buttons a.selected{
+    background: #f47b21;
+    border-color: #f47b21;
+    color: #fff;
+}
+
+/* results */
+.methods .result {
+    display: block;
+    background: #17242b;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: left;
+}
+
+/* more features */
+.methods .more-features ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    margin: 2rem 1rem;
+}
+
+.methods .more-features li {
+    padding: 5px 20px 15px 20px;
+    border-radius: 5px;
+
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 
+    0 1px 3px rgba(0, 0, 0, .08);
+    text-align: left;
+}
+
+.methods .more-features li .heading{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    display: block;
+}
+
+.methods .more-features li .heading:before {
+    margin-right: 10px;
+
+    font-family: "Material Symbols Outlined";
+    font-size: 35px;
+    font-weight: 300;
+    vertical-align: middle;
+
+    display: inline-block;
+    text-transform: none;
+}
+
+.methods .more-features li.sources .heading:before {
+    content: "\e661";
+}
+
+.methods .more-features li.speed .heading:before {
+    content: "\e4cb";
+}
+
+.methods .more-features li.scaleable .heading:before {
+    content: "\e8e5";
+}
+
+.methods .more-features li.location-lookup .heading:before {
+    content: "\e8b6";
+}
+
+.methods .more-features li.security .heading:before {
+    content: "\e8e8";
+}
+
+.methods .more-features li.api-dpcs .heading:before {
+    content: "\f1b7";
+}
+
+/* grid */
+.grid {
+    background: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+.grid .container h4{
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 600;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+}
+
+.grid .container h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+
+    max-width: 600px;
+
+    margin: 1rem auto 3rem auto;
+}
+
+.grid li {
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    background: gray;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+}
+
+.grid .daimler {
+    background: #263e6a url(../images/client_white_daimler.svg);
+    background-size: 175px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .deloitte {
+    background: #eef2f5 url(../images/client_deloitte.svg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .ericsson {
+    background: #01275b url(../images/client_white_ericsson_2.svg);
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .microsoft {
+    background: #eef2f5 url(../images/client_microsoft.svg);
+    background-size: 175px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .schneider {
+    background: #009e4d url(../images/client_white_schneider.svg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .warnerbros {
+    background: #027ac2 url(../images/client_white_warnerbros.svg);
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .wawa {
+    background: #ee2e25 url(../images/client_white_wawa.svg);
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .canda {
+    background: #eef2f5 url(../images/client_canda.svg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .mckinsey {
+    background: #23477f url(../images/client_mckinsey.svg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .rimowa {
+    background: #eef2f5 url(../images/client_rimowa.svg);
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+    section.hero {
+        width: auto;
+        padding-bottom: 4rem;
+    }
+
+    .hero-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather-animated {
+        margin: 2rem 2rem 0;
+        display: block;
+        width: auto;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .main-feature .container {
+        flex-direction: column;
+    }
+
+    .methods .buttons {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: none;
+    }
+
+    .methods .buttons li .b1{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px;
+    }
+    
+    .methods .buttons li .b3{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .methods .more-features ul {
+        grid-template-columns: none;
+        grid-template-columns: auto;
+        gap: 1rem;
+    
+        margin: 2rem 1rem;
+    }
+
+}
