@@ -1,4 +1,4 @@
-# Weatherstack Platform
+# Weather API Platform
 This project is a platform for the Weatherstack API, providing users with pricing plans, documentation, affiliate programs, blog posts, and more to support their use of the Weatherstack API.
 
 # Features
@@ -14,7 +14,7 @@ This project is a platform for the Weatherstack API, providing users with pricin
   
 # Installation
 - Clone the repository:
-`git clone https://github.com/your-username/weatherstack-ecommerce.git`
+`git clone https://github.com/1233198063/Weather-API-Platform.git`
 - Navigate to the project directory:
 `cd weatherstack-ecommerce`
 - Open index.html in your preferred web browser.
